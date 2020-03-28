@@ -60,7 +60,7 @@ The above command is used for installing PHP and requirements. PHP an object ori
 sudo chown -R www-data:www-data /var/www
 ```
 In the above command 
-* the chown command changes the ownership to user:group i.e. www-data:www-data in our case.
+* the chown command changes the ownership to user:group  i.e.  www-data:www-data in our case.
 * **-R** is used to change the ownership recursively for all files and directories in /var/www.
 
 ## STEP 7: Enabling Modules
@@ -78,7 +78,10 @@ sudo service apache2 restart
 ```
 The above command is used to restart the apache2 web service.
 
-### With this the LAMP stack installation is completed.
+## Conclusion: 
+Now the LAMP installation is completed. LAMP is so extensively and often used to update or host the existing applications, that’s why making it quicker and simple becomes more proficient.   
+
+
 **You can find the complete code at my Github [MeghaRawat3](https://github.com/MeghaRawat3/setting-up-LAMP-Stack-using-shell-scripting)**
 
 
